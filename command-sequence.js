@@ -28,8 +28,7 @@ function _executeSequence(sequence, workingDirectory, i, errorList, stdoutList, 
     }
 
     child_process.exec(sequence[i], {
-        cwd: workingDirectory,
-        shell: "/bin/bash",
+        cwd: workingDirectory
     }, (error, stdout) => {
         if (error) {
             errorList.push(error);
