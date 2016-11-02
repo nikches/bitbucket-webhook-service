@@ -1,0 +1,12 @@
+{
+    "name": "bitbucket-webhook-service",
+    "version": "0.2.0",
+    "description": "",
+    "main": "app.js",
+    "author": "nikches",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0"
+    }
+}
