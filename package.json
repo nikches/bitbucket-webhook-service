@@ -1,7 +1,7 @@
 {
-    "name": "bitbucket-webhook-service",
+    "name": "webhook-service",
     "version": "0.2.0",
-    "description": "Web service for handling bitbucket's webhooks.",
+    "description": "Web service for handling webhooks.",
     "main": "app.js",
     "author": "nikches",
     "license": "MIT",
