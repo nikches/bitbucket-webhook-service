@@ -1,0 +1,10 @@
+{
+    "webhook-service": {
+        "cwd": ".",
+        "commands": [
+            "git fetch",
+            "git reset --hard origin/master",
+            "forever restart app.js"
+        ]
+    }
+}
